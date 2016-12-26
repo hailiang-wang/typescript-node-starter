@@ -14,3 +14,13 @@ node dist/app.js
 ```
 cp src/config/environment/development.sample.ts src/config/environment/development.ts 
 ```
+
+## Test
+```
+gulp test
+```
+
+## Watch
+```
+gulp 
+```

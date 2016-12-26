@@ -1,8 +1,8 @@
 {
-  "name": "philly-telegram",
+  "name": "typescript-node-starter",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node.js & TypeScript Starter Application",
+  "main": "dist/app.js",
   "dependencies": {
     "log4js": "^1.1.0"
   },
@@ -15,9 +15,14 @@
     "lodash": "^4.17.3",
     "nodemon": "^1.11.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Samurais/typescript-node-starter.git"
   },
-  "author": "",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "tsc && node_modules/.bin/ava dist/test"
+  },
+  "author": "Hai Liang Wang<hailiang.hl.wang@gmail.com>",
   "license": "ISC"
 }
